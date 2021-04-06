@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<p><center>Funded</center></p>
+<input type="image" onClick="window.location.reload();" src="refresh.png"  width="48" height="48">
+<!-- ChatBot -->
+<link rel="stylesheet" type="text/css" href="css/jquery.convform.css">
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.convform.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+</head>
+<!-- ChatBot 
+<div class="chat_icon">
+	<i class="fa fa-comments" aria-hidden="true"></i>-->
+</div>
+
+<div class="chat_box">
+	<div class="my-conv-form-wrapper">
+		<form action="" method="GET" class="hidden">
+       
+      <select data-conv-question="Hello! How can I help you" name="category">
+        <option value="donorq">Donor Queries</option>
+        <option value="fundq">Fundraiser Queries</option>
+        <option value="nonpro"> Non-profit Queries</option>
+      </select>
+
+      <div data-conv-fork="category">
+        <div data-conv-case="donorq">
+        <select data-conv-question="Hello! How can I help you" name="category">
+        <option value="d1">How do I get a tax exemption receipt for my donation?</option>
+        <option value="d2">How can I get an update regarding the fundraiser I supported?</option>
+        <option value="d3"> Payment / donation receipt</option>
+        <option value="d4">Different Modes of Payments to donate</option>
+        <option value="d5">Does the donation reach the individual directly?</option>
+        <option value="d6">How do I contact a campaigner?</option>
+
+      </select> 
+        </div>
+        <div data-conv-case="fundq" data-conv-fork="first-question2">
+         <select data-conv-question="Hello! How can I help you" name="category">
+        <option value="donorq">fund Queries </option>
+        <option value="DigitalMarketing">fund Qieris1</option>
+      </select>
+        </div>
+      </div>
+
+      <input type="text" name="name" data-conv-question="Please, Enter your name">
+
+      <input type="text" data-conv-question="Hi {name}, <br> It's a pleasure to meet you." data-no-answer="true">
+
+      <input data-conv-question="Enter your e-mail" data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" type="email" name="email" required placeholder="What's your e-mail?">
+
+      <select data-conv-question="Please Conform">
+        <option value="Yes">Conform</option>
+      </select>
+    </form>
+    
+	</div>
+</div>
+<!-- ChatBot end -->
+
+
+</body>
+</html>
