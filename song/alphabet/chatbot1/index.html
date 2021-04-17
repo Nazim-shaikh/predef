@@ -29,6 +29,7 @@
         <option value="donorq">Donor Queries</option>
         <option value="fundq">Fundraiser Queries</option>
         <option value="nonpro"> Non-profit Queries</option>
+		<option value="bas"> Basic Questions</option>
       </select>
 
       <div data-conv-fork="category">
@@ -43,23 +44,169 @@
 
       </select> 
         </div>
-        <div data-conv-case="fundq" data-conv-fork="first-question2">
-         <select data-conv-question="Hello! How can I help you" name="category">
-        <option value="donorq">fund Queries </option>
-        <option value="DigitalMarketing">fund Qieris1</option>
-      </select>
+		<div data-conv-fork="category">
+        <div data-conv-case="d1">
+        <select data-conv-question="Fundraisers with tax exemption will have the same mentioned on the page. If you have made a donation to a fundraiser which has tax exemption applicable, it will be mentioned in your acknowledgement email. If the information is not mentioned in your email, then the donation is not eligible for tax exemption.
+To download your 80G receipt, you need to:<br>
+i) Sign in to your Ketto account with the email id used to make the donation. If you don't know the password, create one by clicking on 'Forgot password'.<br>
+ii) Click on 'Profile' and go to your donation history.<br>
+iii) Click on 'Download 80G' for the donation you wish to download for and it will be downloaded in PDF format.<br>
+If you are unable to download or view the receipt for some reason, please write to us at FunEd(email id)
+" name="category">
+      </select> 
         </div>
-      </div>
+		
+		<div data-conv-fork="category">
+        <div data-conv-case="d2">
+        <select data-conv-question="You can visit the fundraiser you supported and click on the 'Ask for update' button. A message is sent to the campaigner notifying them of your request for an update.
+You can also click on 'contact' next to the campaigner's name to send any other message.
+We encourage all campaigners to regularly post updates on their fundraisers to let donors know of the progress of their fundraiser and details regarding the utilisation of the funds that have been raised.
+We also have a team that reaches out to campaigners to help them post quality updates thus upholding FundEd’s high standards of transparency and accountability." name="category">
+        </select>
+		</div>
+		
+		<div data-conv-fork="category">
+        <div data-conv-case="d3">
+        <select data-conv-question="To receive Payment Acknowledgement please follow these instructions:<br>
+a]. If you have used direct payment method i.e Debit Card/Credit Card or Net banking, then you need to login to your profile using the email ID used to make the transaction and download it from the donation history section. You can click on forgot password to retrieve your password.<br>
+b]. If you have used UPI/Bank transfer/PayTM Wallet payment method, you need to visit on the fundraiser page to which you have supported and look out for click here to receive payment acknowledgement option and fill up the necessary details in order to receive payment acknowledgement.<br>
+c]. For 80G Certificate please follow the below instructions:<br>
+Link to download the certificate-<br>
+d]. Also, check your inbox & spam box, you might have received an email from Ketto with the attachment of the same when you completed your transaction.<br>
+If you are still unable to find it, please drop us an email on info@funded<br>
+" name="category">
+        </select>
+		</div>
+		
+		<div data-conv-fork="category">
+        <div data-conv-case="d4">
+        <select data-conv-question="For users in India, these are following modes to make a payment:<br>
+Debit card, credit card, net banking, digital wallets, UPI, QR code, BHIM, NEFT(bank transfer)<br>
+For users outside India, these are following modes to make a payment:<br>
+Credit card & Debit card.
+" name="category">
+        </select>
+		</div>
+        
+		<div data-conv-fork="category">
+        <div data-conv-case="d5">
+        <select data-conv-question="With FunED, the money you collect goes directly to the bank account associated with your fundraising page. 
+" name="category">
+        </select>
+		</div>
+		
+		<div data-conv-fork="category">
+        <div data-conv-case="d6">
+        <select data-conv-question="You can click on the contact button and directly reach out to the campaigner. Unfortunately, due to our privacy policy, we don't share any contact info of any campaigner directly.<br>
+If you wish to get more details you can directly contact the campaigner via social media platforms.
+" name="category">
+        </select>
+		</div>
+		
+		<div data-conv-fork="category">
+        <div data-conv-case="fundq">
+        <select data-conv-question="Hello! How can I help you" name="category">
+        <option value="f1">1] How do I start a fundraiser?</option>
+        <option value="f2">2] What documents do I need to submit to withdraw the funds I have raised?</option>
+        <option value="f3">3]How do I get the details of my donors?</option>
+        </select> 
+        </div>
+		
+		<div data-conv-fork="category">
+        <div data-conv-case="f1">
+        <select data-conv-question="1]Download FundEd app and click on the 'Create Appeal’ button.<br>
+2]Choose your purpose for fundraising and sign up<br>
+3]Fill the required information and 
+" name="category">
+        </select>
+		</div>
+		
+		div data-conv-fork="category">
+        <div data-conv-case="f2">
+        <select data-conv-question="Once your fundraiser is approved, you can submit the bank account details and photocopies of the following documents of the beneficiary:<br>
+1]PAN card<br>
+2]Address proof - Aadhar card (front and back) or Passport (first and last page) or Election card (front and back) or Driver's license<br>
+3]Bank statement (not older than 2 months of submission date) or cancelled cheque or 1st page of passbook<br>
+Note:<br>
+1]Bank name, branch name, IFSC code, account number and accountholder's name should be clearly mentioned on the bank statement or cancelled cheque<br>
+2]The address proof should be valid as of the submission date and mention the address in full<br>
+3]The name mentioned on all the documents should be exactly the same<br>
+4]The documents should be easily readable and not blurred or cropped<br>
+" name="category">
+        </select>
+		</div>
+		
+	    div data-conv-fork="category">
+        <div data-conv-case="f3">
+        <select data-conv-question="You can email us at id or call/WhatsApp us at 000000000to contact our Customer Support team to get the required information.
+" name="category">
+        </select>
+		</div>
+		
+		<div data-conv-fork="category">
+        <div data-conv-case="nonpro">
+        <select data-conv-question="Hello! How can I help you" name="category">
+        <option value="n1">1]How to get started as an NGO on FundED? </option>
+        <option value="n2">2] What documents do NGOs need to submit for due diligence?</option>
+        <option value="n3">3]Where do I need to submit these documents?</option>
+		</select> 
+        </div>
+		
+		<div data-conv-fork="category">
+        <div data-conv-case="n1">
+        <select data-conv-question="Download FundEd’s app and follow the How it Works guide to stepwise enrol the NGO on the platform<br>
+ You will receive a response to your application with 2 business days. You can apply again if your application isn't accepted.
+" name="category">
+        </select>
+		</div>
+		
+		<div data-conv-fork="category">
+        <div data-conv-case="n2">
+        <select data-conv-question="Once your application is accepted, all NGOs must at least share the following documents with FundED<br>
+A. Incorporation Document/Registration Certificate/Trust Deed/Society deed (mandatory)<br>
+B. PAN Card Copy(mandatory)<br>
+C. 80G Registration Certificate(if applicable)<br>
+D. Bank Account Information for Indian donations & a cancelled cheque of the account/previous month's bank statement (mandatory)<br>
+E. FCRA Certificate and Bank details & a cancelled cheque of the account (if applicable)<br>
+" name="category">
+        </select>
+		</div>
+		
+		<div data-conv-fork="category">
+        <div data-conv-case="n3">
+        <select data-conv-question="Please sign in to your FundED account and there is a section in the profile section of your dashboard, where you have to add the NGO’s Pan No, Aadhar and bank details and upload required documents. If you have any queries regarding this, please contact us.
+" name="category">
+        </select>
+		</div>
+		
+		div data-conv-fork="category">
+        <div data-conv-case="bas">
+        <select data-conv-question="Hello! How can I help you" name="category">
+        <option value="b1">1]How do I withdraw the funds I have raised? </option>
+        <option value="b2">2] Can funds raised for an NGO be transferred to a personal account?</option>
+      </select> 
+        </div>
+		
+		div data-conv-fork="category">
+        <div data-conv-case="b1">
+        <select data-conv-question="In order to withdraw funds from your bank account, you need to submit your bank account details and documents as per FundED’s requirements. You can find the list of documents 'Individuals' and 'NGOs' need to submit by clicking on the highlighted words.<br>
+To proceed with the withdrawal, it is mandatory to upload all the necessary documents by logging in and going to your account.<br>
+Please note that FundED cannot process any payout until the necessary information is uploaded and approved. Once the documents have been uploaded and approved, your button to withdraw funds will be activated. On clicking the same, you will be able to withdraw the funds.<br>
+On your dashboard, you will be shown the amount that you are eligible to withdraw, which at times maybe not the full amount you have raised.<br>
+Once you click on withdrawal you can expect the INR funds to be credited to your account in 1-2 working days and USD funds in 5-7 working days.<br>
+We would highly recommend that you complete the compliance documentation when your fundraiser/appeal is running for a quick and smooth payout. For more queries here please contact us<br>
+" name="category">
+        </select>
+		</div>
+		
+		
+		<div data-conv-fork="category">
+        <div data-conv-case="b2">
+        <select data-conv-question="No. FundED practices absolute transparency and accountability. If the funds were raised in the name of an NGO then they cannot be transferred to a personal/corporate account. If there is an issue found with the NGO's documents or there is any such issue, the funds will be refunded to the donors.
 
-      <input type="text" name="name" data-conv-question="Please, Enter your name">
-
-      <input type="text" data-conv-question="Hi {name}, <br> It's a pleasure to meet you." data-no-answer="true">
-
-      <input data-conv-question="Enter your e-mail" data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" type="email" name="email" required placeholder="What's your e-mail?">
-
-      <select data-conv-question="Please Conform">
-        <option value="Yes">Conform</option>
-      </select>
+" name="category">
+        </select>
+		</div>
     </form>
     
 	</div>
